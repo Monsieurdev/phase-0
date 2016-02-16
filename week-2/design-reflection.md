@@ -1,4 +1,4 @@
-![Alt text](imgs/sitemap.png)
+![Site Map](sitemap.png)
 
 
 What are the 6 Phases of Web Design?
