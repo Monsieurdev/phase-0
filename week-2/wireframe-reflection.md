@@ -1,3 +1,3 @@
-![Wire Frame Index](wireframe-index.png)
+![Wire Frame](imgs/wireframe-index.png)
 
-![Wire Frame Blog Index](wireframe-blog-index.png)
+![Wire Frame Blog](imgs/wireframe-blog-index.png)
