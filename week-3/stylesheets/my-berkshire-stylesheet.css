@@ -1,0 +1,104 @@
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+It is important to know that link goes in the head of the Html file.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+it was very challenging. I had to manipulate the different position styles to be able to get what I want. 
+sometimes it was frustration but I guess with some more practice I will get the hang of it.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+I use font-size and color attributes to modify the element style.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Yes. I used tons of classes and ids. I wonder if that's a correct implementation but I seem to do well with those.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+The site had cleaner code as I assume it was done by a professional.*/
+header {
+	color: #000080;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+body {
+	background-color: #ffffff;
+}
+a {
+	color: #800080;
+
+}
+a:visited {
+	color:#ff0000;
+}
+
+.des {
+	font-size: 10px;
+	color: #000080;
+	margin-top: 2px; 
+}
+.br {
+	display: block;
+}
+.big {
+	font-size: 28px;
+}
+#s-line {
+	font-size: 15px;
+}
+#t-line {
+	font-size: 15px;
+}
+#inc {
+	font-size: 13px;
+}
+#geico {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	color:#000080;
+}
+#side {
+	margin-left: 600px;
+    margin-top: -375px;
+}
+
+
+img {
+	margin-top: 15px;
+}
+ul li {
+	margin: 25px;
+}
+
+#para {
+	margin-top: -5px;
+}
+
+#container {
+
+	border-top: 1px solid black;
+	width: 100%;
+
+}
+#bottom {
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+#lp {
+	font-size: 12px;
+	color: #000080;
+}
+nav {
+	margin-top: 15px;
+}
+footer {
+	margin-top: 15px;
+	font-size: 10px;
+	color: #000080;
+}
+#last {
+	font-weight: bold;
+}
