@@ -26,16 +26,16 @@ puts minutes_in_decade
 Ruby handle these operations by computing the values and the result is put in a place holder such as a variable. in the case of division, with integers we get a whole number as result while with float we a result with a decimal point.
 
 ###What is the difference between integers and floats?
-An integer is a whole number while a float are nubers with decimal points.
+An integer is a whole number while float are nubers with decimal points.
 
 ###What is the difference between integer and float division?
 A float division is when we want want the exact result with a decimal point if necessary while an Integer division is when we just want a rounded number, for example; if you divide 5 t-shirts between 2 people they would each have 2 t-shirts not 2.5 t-shirts.
 
 ###What are strings? Why and when would you use them?
-In Ruby, strings are anything between and single or double quotes.
+In Ruby, strings are anything between a single or double quotes.
 
 ###What are local variables? Why and when would you use them?
-Variables are place holder that hold values. 
+Variables are place holders that hold values. 
 
 ###How was this challenge? Did you get a good review of some of the basics?
 This challenge was interesting because it gave me the opportunity to review basic things that I had forgotten. I really got a good review.
