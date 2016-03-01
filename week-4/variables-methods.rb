@@ -31,3 +31,6 @@ puts "#{new_number} is a bigger and better number"
 
 # What was confusing about this material? What made sense?
 #I think everything was clear. As I read the book everything made sense. It's very interesting to see how things work when practicing.
+
+#https://github.com/Monsieurdev/phase-0/blob/master/week-4/address/my_solution.rb
+#https://github.com/Monsieurdev/phase-0/blob/master/week-4/define-method/my_solution.rb
