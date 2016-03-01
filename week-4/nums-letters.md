@@ -39,3 +39,7 @@ Variables are place holders that hold values.
 
 ###How was this challenge? Did you get a good review of some of the basics?
 This challenge was interesting because it gave me the opportunity to review basic things that I had forgotten. I really got a good review.
+
+[](https://github.com/Monsieurdev/phase-0/blob/master/week-4/defining-variables.rb)
+[](https://github.com/Monsieurdev/phase-0/blob/master/week-4/simple-string.rb)
+[](https://github.com/Monsieurdev/phase-0/blob/master/week-4/basic-math.rb)
