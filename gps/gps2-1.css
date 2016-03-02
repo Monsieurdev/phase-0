@@ -1,0 +1,45 @@
+.column-1 {
+  /*background-color: blue;*/
+  width: 50%;
+  height: 49%;
+  display: inline-block;
+  padding-top: 15px;
+
+}
+.column-2 {
+  /*background-color: red;*/
+   width: 49%;
+  height: 100%;
+  float:right;
+  display: inline-block;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  top: 30px;
+}
+
+html {
+  background-color: #E8E7CA;
+  font-family: Arial;
+}
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+color: green;
+}
+
+header {
+  font-weight: bold;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 40%;
+}
