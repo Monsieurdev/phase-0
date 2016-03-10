@@ -91,8 +91,7 @@ end
 
 
 # Release 3: Reflect!
-# What did you learn about researching and explaining your research to others?
-#I learned about new method methods that I had never seen before. It also 
-#solidified my knowledge how to use and convert a code block, and when I tried
-#to explain to others I got even better understanding of the methods since 
-#research to make sure I was telling the right things.
+# I learned about new methods that I had never seen before. It also 
+# solidified my knowledge on how to use and convert a code block, and when I tried
+# to explain to others I got even a better understanding of the methods since I  
+# researched to make sure I was telling the right things.
