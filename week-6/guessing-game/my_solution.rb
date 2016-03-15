@@ -25,25 +25,25 @@
 # class GuessingGame
 
 
-#   def initialize(answer)
-#     @answer = answer
-#     @guess = nil
-#   end
+   def initialize(answer)
+     @answer = answer
+      @guess = nil
+   end
 
-#   def guess(number)
-#     if number > @answer
-#       @guess = :high
-#     elsif 
-#       number == @answer
-#       @guess = :correct
-#     else
-#       @guess = :low
-#     end
-#   end
-#     def solved?
-#     	@guess == :correct
-#     end
-# end
+   def guess(number)
+     if number > @answer
+       @guess = :high
+     elsif 
+       number == @answer
+       @guess = :correct
+     else
+       @guess = :low
+      end
+   end
+     def solved?
+     	@guess == :correct
+     end
+ end
 
 
 
