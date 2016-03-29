@@ -1,6 +1,6 @@
-[One-to-tone](../imgs/one-to-one.png)
+[One-to-tone](imgs/one-to-one.png)
 
-[Many-to-Many](../imgs/many-to-many.png)
+[Many-to-Many](imgs/many-to-many.png)
 
 
 ###What is a one-to-one database?
