@@ -7,6 +7,7 @@
 7. SELECT state_name FROM states WHERE population BETWEEN 1000000 AND 1500000;
 8. SELECT state_name, region_id FROM states ORDER BY region_id;
 9. SELECT * FROM regions WHERE region_name LIKE '%Central';
+
 10.SELECT regions.region_name, states.state_name FROM regions JOIN states ON states.region_id = regions.id;
 
 [Schema](db_schema.png)
