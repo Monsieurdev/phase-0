@@ -1,7 +1,7 @@
-// Tally Votes in JavaScript Pairing Challenge.
+ // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge with: Benjamin R Flores
+// This challenge took me [4] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -63,10 +63,60 @@ var officers = {
 }
 
 // Pseudocode
-
-
+// FOR IN
+    // access the objects of the object vote.
+    // access the positions of the objects students.
+    // retrieve the names and assigned them to the vote count object and assigned them a default value of 1.
+// FOR IN
+    // access the objects of the object vote.
+    // access the positions of the objects students.
+    // update the number of votes in the vote count object.
+// FOR IN
+    // access the objects of the object count.
+    // set a default maximum value.
+    // access the names of the object position and retrieve the votes.
+    // IF
+       // the vote is more the maximum vote then maximum vote is the current vote.
+       // the name of the officer is whoever has that maximum vote.
 // __________________________________________
 // Initial Solution
+for (var students in votes){
+  if(!votes.hasOwnProperty(students)) continue;
+  var student = votes[students]
+  for(var po in student ){
+   if(!student.hasOwnProperty(po)) continue;
+  var name = student[po]
+  voteCount[po][name] = 0;
+  } 
+
+}
+
+for (var students in votes){
+  if(!votes.hasOwnProperty(students)) continue;
+  var student = votes[students]
+  for(var po in student ){
+   if(!student.hasOwnProperty(po)) continue;
+  var name = student[po]
+  voteCount[po][name]++;
+  } 
+
+}
+
+for (var po in voteCount){
+  if(!voteCount.hasOwnProperty(po)) continue;
+  var maxVote = 0;
+  var obj = voteCount[po]
+  for (var name in obj){
+    if(!obj.hasOwnProperty(name)) continue;
+    vote = obj[name];
+    if(vote > maxVote){
+    maxVote = vote;
+    officers[po] = name;
+   }
+  }
+}
+
+
 
 
 
@@ -77,6 +127,37 @@ var officers = {
 // __________________________________________
 // Refactored Solution
 
+for (var students in votes){
+  var student = votes[students]
+  for(var po in student ){
+  var name = student[po]
+  voteCount[po][name] = 0;
+  } 
+
+}
+
+for (var students in votes){
+  var student = votes[students]
+  for(var po in student ){
+  var name = student[po];
+  voteCount[po][name]++;
+  } 
+
+}
+
+for (var po in voteCount){
+  var maxVote = 0;
+  var obj = voteCount[po];
+  for (var name in obj){
+    vote = obj[name];
+    if(vote > maxVote){
+    maxVote = vote;
+    officers[po] = name;
+   }
+  }
+}
+
+
 
 
 
@@ -84,7 +165,16 @@ var officers = {
 
 // __________________________________________
 // Reflection
+// What did you learn about iterating over nested objects in JavaScript?
+// I learned that for in loop is great a way to iterate over nested objects, and the brackets notation is
+// is more appropriate when dealing with nested arrays.
 
+// Were you able to find useful methods to help you with this?
+// honnestly, we couldn't find any methods in the docs so we did mechanically.
+
+// What concepts were solidified in the process of working through this challenge?
+// Accession variables was solidified in this challenge because we had to manipulate the nested objects 
+// untill we were able to get what we want.
 
 
 

@@ -1,7 +1,7 @@
 /*
 Gradebook from Names and Scores
-I worked on this challenge [by myself, with:]
-This challenge took me [#] hours.
+I worked on this challenge with Benjamin R flores
+This challenge took me [2] hours.
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
 variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
@@ -23,7 +23,55 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+var students = ["Joseph", "Susan", "William", "Elizabeth"]
 
+var scores = [ [80, 70, 70, 100],
+               [85, 80, 90, 90],
+               [75, 70, 80, 75],
+               [100, 90, 95, 85] ]
+
+var gradebook = {
+  Joseph:{
+    testScores:scores[0]
+    
+  },
+  Susan:{
+    testScores:scores[1]
+    
+  },
+  William:{
+    testScores:scores[2]
+    
+  },
+  Elizabeth:{
+    testScores:scores[3]
+    
+  },
+  addScore: function(name, score){
+  
+     gradebook[name]['testScores'].push(score);
+  },
+  getAverage: function(name){
+     return average(gradebook[name]['testScores']);
+     
+  }
+
+ 
+  
+
+}  
+  
+function average(array){
+  var sum = 0;
+  var avg = 0;
+  for (var i =0; i < array.length; i++){
+    sum += array[i];
+    avg = sum / array.length;
+  }
+  return avg; 
+};
+
+  
 
 
 
@@ -32,6 +80,43 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Refactored Solution
+var gradebook = {
+  Joseph:{
+    testScores:scores[0]
+    
+  },
+  Susan:{
+    testScores:scores[1]
+    
+  },
+  William:{
+    testScores:scores[2]
+    
+  },
+  Elizabeth:{
+    testScores:scores[3]
+    
+  },
+  addScore: function(name, score){
+  
+     gradebook[name]['testScores'].push(score);
+  },
+  getAverage: function(name){
+    return average(gradebook[name]['testScores']);
+  
+  }
+  
+
+}
+  
+
+function average(array){
+  var size = array.length;
+  var sum = array.reduce(function(previous, current) {return previous + current}, 0);
+
+  return sum/size;
+}
+
 
 
 
@@ -44,6 +129,16 @@ var scores = [ [80, 70, 70, 100],
 // Reflect
 
 
+// What did you learn about adding functions to objects?
+// I learned that the functions added to an objects are considered methods, and also you can 
+// call those methods on the objects they were added in.
+
+// How did you iterate over nested arrays in JavaScript?
+// We iterated over them using a for loop.
+
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+// we use the reduce function in our refactored solution, it wors by adding the elements of an array and 
+// return the total.
 
 
 
